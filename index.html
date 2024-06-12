@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
   <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
   <header class="header">
     <img src="profile.jpg" alt="Your Name" class="profile-img">
     <h1>OJO EMMANUEL ADEDAYO</h1>
-    <p>A Data Analyst, An Embeded systems Engineer, An Artificial Intelligence Expert || MATLAB,PYTHON,SQL,TALEAU,ARDUINO,C PROGRAMMING</p>
+    <p>A Data Analyst, An Embedded Systems Engineer, An Artificial Intelligence Expert || MATLAB, PYTHON, SQL, TALEAU, ARDUINO, C PROGRAMMING</p>
     <nav class="nav">
       <a href="#about" class="nav-link">About Me</a>
       <a href="#portfolio" class="nav-link">Portfolio</a>
@@ -23,43 +24,53 @@
 
   <section id="about" class="section" data-aos="fade-up">
     <h2>About Me</h2>
-    <p>A Graduate of Electrical and Electronics Engineering.I love learning new things and Solving Problems.</p>
+    <p>A Graduate of Electrical and Electronics Engineering. I love learning new things and solving problems.</p>
   </section>
 
   <section id="portfolio" class="section" data-aos="fade-up">
     <h2>Portfolio</h2>
-    <div class="portfolio-items">
-      <div class="portfolio-item" data-aos="zoom-in">
-        <img src="data1.png" alt="Project Title" class="portfolio-img">
-        <h3>Data cleaning</h3>
-        <p>Cleaning of weapon detection data.</p>
-        <a href="https://github.com/siremmy7/web1" class="btn" target="blank">View Project</a>
-      </div>
-      <div class="portfolio-item" data-aos="zoom-in">
-        <img src="data2.png" alt="Project Title" class="portfolio-img">
-        <h3>Data Classification</h3>
-        <p>Basic Data Classification.</p>
-        <a href="https://github.com/siremmy7/web2" class="btn" target="blank">View Project</a>
-      </div>
-      <div class="portfolio-item" data-aos="zoom-in">
-        <img src="data3.jpeg" alt="Project Title" class="portfolio-img">
-        <h3>Data Visualization</h3>
-        <p>Using Tableau to Visualize Data.</p>
-        <a href="https://github.com/siremmy7/web3" class="btn" target="blank">View Project</a>
-      </div>
-	  
-	  <div class="portfolio-item" data-aos="zoom-in">
-        <img src="data4.png" alt="Project Title" class="portfolio-img">
-        <h3>Model Creation</h3>
-        <p>Creating a weapon Detection Model.</p>
-        <a href="https://github.com/siremmy7/Data-Analytics" class="btn" target="blank">View Project</a>
-      </div>
-	  
-	  <div class="portfolio-item" data-aos="zoom-in">
-        <img src="data5.jpeg" alt="Project Title" class="portfolio-img">
-        <h3>Water Pollution Detection</h3>
-        <p>Create a Model to Detect Water Pollution in Nigeria.</p>
-        <a href="https://github.com/siremmy7/TwoBeagles" class="btn" target="blank">View Project</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+          <div class="portfolio-item">
+            <img src="data1.png" alt="Project Title" class="img-fluid">
+            <h3>Data Cleaning</h3>
+            <p>Cleaning of weapon detection data.</p>
+            <a href="https://github.com/siremmy7/web1" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+          <div class="portfolio-item">
+            <img src="data2.png" alt="Project Title" class="img-fluid">
+            <h3>Data Classification</h3>
+            <p>Basic Data Classification.</p>
+            <a href="https://github.com/siremmy7/web2" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+          <div class="portfolio-item">
+            <img src="data3.jpeg" alt="Project Title" class="img-fluid">
+            <h3>Data Visualization</h3>
+            <p>Using Tableau to visualize data.</p>
+            <a href="https://github.com/siremmy7/web3" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+          <div class="portfolio-item">
+            <img src="data4.png" alt="Project Title" class="img-fluid">
+            <h3>Model Creation</h3>
+            <p>Creating a weapon detection model.</p>
+            <a href="https://github.com/siremmy7/Data-Analytics" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+          <div class="portfolio-item">
+            <img src="data5.jpeg" alt="Project Title" class="img-fluid">
+            <h3>Water Pollution Detection</h3>
+            <p>Create a model to detect water pollution in Nigeria.</p>
+            <a href="https://github.com/siremmy7/TwoBeagles" class="btn btn-primary" target="_blank">View Project</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -73,7 +84,7 @@
       <input type="email" id="email" name="email" required>
       <label for="message">Message</label>
       <textarea id="message" name="message" rows="4" required></textarea>
-      <button type="submit" class="btn">Send</button>
+      <button type="submit" class="btn btn-primary">Send</button>
     </form>
   </section>
 
@@ -87,6 +98,9 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
